@@ -1,5 +1,7 @@
 const dotenv = require("dotenv");
 const speakeasy = require("speakeasy");
+
+// Load existing .env file
 dotenv.config();
 
 const key = process.env.SECRET_KEY
