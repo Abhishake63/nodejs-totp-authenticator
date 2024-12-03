@@ -84,8 +84,6 @@ generateQRCodeURL()
                 console.log(secret);
                 console.log("Secret written to .env file");
                 console.log("QR Code saved to:", filepath);
-                console.log("Scan the QR code with the Google Authenticator app:");
-                console.log(dataURL);
             });
     })
     .catch((err) => {
